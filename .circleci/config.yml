@@ -12,6 +12,10 @@ workflows:
           version: 12.16.0
       - node/test:
           version: 10.19.0
+          
+          test:
+     docker:
+       - image: cimg/node:14.13.0
       
         
        
