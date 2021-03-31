@@ -12,11 +12,7 @@ workflows:
           version: 12.16.0
       - node/test:
           version: 10.19.0
-      - node/test:
+      - node/test: npm install
         
-        command: npm install
-      - node/test: 
        
-        command: npm run tests
-
 
